@@ -5,27 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73f76557-fcd3-468b-bab1-44e5bdb437b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/d842dbf9-834f-4965-9df1-d5b6f3dbff10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/d842dbf9-834f-4965-9df1-d5b6f3dbff10/storage_v2/_src_/schema/main.uQUzAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/templates/signup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gtMovieStore/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gtMovieStore/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gtMovieStore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gtMovieStore.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gtMovieStore/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/gtMovieStore/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gtMovieStore/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/gtMovieStore/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +54,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jaxon Parriott\Desktop\School\2340\gtMovieStore\accounts\templates\accounts" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="gtMovieStore" type="Python.DjangoServer" factoryName="Django server">
       <module name="gtMovieStore" />
@@ -116,7 +103,7 @@
       <option name="presentableId" value="Default" />
       <updated>1738528896768</updated>
       <workItem from="1738528897550" duration="248000" />
-      <workItem from="1738529161883" duration="3443000" />
+      <workItem from="1738529161883" duration="4127000" />
     </task>
     <servers />
   </component>
