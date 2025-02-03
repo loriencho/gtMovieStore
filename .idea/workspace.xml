@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73f76557-fcd3-468b-bab1-44e5bdb437b0" name="Changes" comment="" />
+    <list default="true" id="73f76557-fcd3-468b-bab1-44e5bdb437b0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d842dbf9-834f-4965-9df1-d5b6f3dbff10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d842dbf9-834f-4965-9df1-d5b6f3dbff10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gtMovieStore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gtMovieStore.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gtMovieStore/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/gtMovieStore/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gtMovieStore/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/gtMovieStore/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gtMovieStore/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/gtMovieStore/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/templates/movies/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies/templates/movies/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/templates/movies/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies/templates/movies/show.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +35,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -41,7 +59,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
-    "git-widget-placeholder": "LoginSignup",
+    "git-widget-placeholder": "addReviewModelAndUpdatePages",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
