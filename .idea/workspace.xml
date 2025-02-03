@@ -4,19 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73f76557-fcd3-468b-bab1-44e5bdb437b0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d842dbf9-834f-4965-9df1-d5b6f3dbff10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d842dbf9-834f-4965-9df1-d5b6f3dbff10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gtMovieStore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gtMovieStore.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="73f76557-fcd3-468b-bab1-44e5bdb437b0" name="Changes" comment="add review model and updated movie admin functionality">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gtMovieStore/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/gtMovieStore/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gtMovieStore/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/gtMovieStore/static/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gtMovieStore/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/gtMovieStore/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gtMovieStore/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/gtMovieStore/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies/templates/movies/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies/templates/movies/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies/templates/movies/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies/templates/movies/show.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,9 +114,22 @@
       <workItem from="1738528897550" duration="248000" />
       <workItem from="1738529161883" duration="5794000" />
     </task>
+    <task id="LOCAL-00001" summary="add review model and updated movie admin functionality">
+      <option name="closed" value="true" />
+      <created>1738611242056</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738611242056</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add review model and updated movie admin functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="add review model and updated movie admin functionality" />
   </component>
 </project>
