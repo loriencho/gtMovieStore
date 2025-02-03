@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73f76557-fcd3-468b-bab1-44e5bdb437b0" name="Changes" comment="" />
+    <list default="true" id="73f76557-fcd3-468b-bab1-44e5bdb437b0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gtMovieStore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gtMovieStore.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gtMovieStore/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/gtMovieStore/templates/base.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +46,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
-    "git-widget-placeholder": "LoginSignup",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -101,6 +106,7 @@
       <updated>1738528896768</updated>
       <workItem from="1738528897550" duration="248000" />
       <workItem from="1738529161883" duration="5794000" />
+      <workItem from="1738554314954" duration="1869000" />
     </task>
     <servers />
   </component>
