@@ -3,7 +3,11 @@ from django.shortcuts import render
 from django.shortcuts import redirect
 from .forms import CustomUserCreationForm, CustomErrorList
 from django.contrib.auth import login as auth_login, authenticate
-
+from django.contrib.auth.decorators import login_required
+@login_required
+def logout(request):
+    auth_logout(request)
+    return redirect('home.index')
 def login(request):
     template_data = {}
     template_data['title'] = 'Login'
