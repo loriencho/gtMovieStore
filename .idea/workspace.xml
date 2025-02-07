@@ -38,7 +38,11 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+<<<<<<< Updated upstream
     &quot;Django Server.gtMovieStore.executor&quot;: &quot;Debug&quot;,
+=======
+    &quot;Django Server.gtMovieStore.executor&quot;: &quot;Run&quot;,
+>>>>>>> Stashed changes
     &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
@@ -108,9 +112,12 @@
       <workItem from="1738554314954" duration="2252000" />
       <workItem from="1738614664399" duration="1467000" />
       <workItem from="1738616146063" duration="2168000" />
+<<<<<<< Updated upstream
       <workItem from="1738702229778" duration="1251000" />
       <workItem from="1738703518724" duration="238000" />
       <workItem from="1738704049358" duration="7000" />
+=======
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
