@@ -20,7 +20,8 @@
         <div class="container">
             <!-- Brand Logo -->
             <a class="navbar-brand" href="{% url 'home.index' %}">
-                <img src="{% static 'img/logo.png' %}" alt="logo" height="40">
+                <img src="{% static 'img/logo.png' %}" alt="logo" height="40" class="me-2">
+                <span class="fw-bold text-white">Movies Store</span>
             </a>
 
             <!-- Mobile Toggle Button -->
@@ -36,7 +37,9 @@
                     <li class="nav-item">
                         <a class="nav-link text-light" href="{% url 'home.about' %}">About</a>
                     </li>
-
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="{% url 'movies.index' %}">Movies</a> <!-- ✅ Add this line -->
+                    </li>
                     {% if user.is_authenticated %}
                     <li class="nav-item">
                         <a class="nav-link text-light" href="{% url 'accounts.logout' %}">
@@ -64,18 +67,25 @@
       {% endblock content %}
     </div>
 
+     <!-- Banner -->
+    <header class="text-center text-white" style="background: url('{% static 'img/movies_banner.png' %}') no-repeat center center/cover; height: 200px; display: flex; align-items: center; justify-content: center;">
+        <h1 class="fw-bold shadow-lg bg-dark px-3 py-2 rounded">Your Ticket to Unlimited Entertainment!</h1>
+    </header>
+
+
+
     <!-- Footer -->
-    <section class="p-3 ms-footer d-none d-md-block">
+    <section class="bg-dark text-white mt-auto py-4">
       <div class="container">
-        <div class="row mt-3 text-white">
-          <div class="col-md-6 col-lg-6 col-xl-6 mx-auto mb-4">
+        <div class="row">
+          <div class="col-md-4">
             <b>MOVIES STORE</b>
             <hr />
             <p>Welcome to Movies Store, your premier online destination for a cinematic
               adventure like no other! Dive into the world of movies from the comfort of your own home with our user-friendly
               and immersive online movie store.</p>
           </div>
-          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+          <div class="col-md-2">
             <b>LINKS</b>
             <hr />
             <p><a class="nav-link" href="{% url 'home.about' %}">About</a></p>
