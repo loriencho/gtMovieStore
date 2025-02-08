@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73f76557-fcd3-468b-bab1-44e5bdb437b0" name="Changes" comment="" />
+    <list default="true" id="73f76557-fcd3-468b-bab1-44e5bdb437b0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -123,7 +125,7 @@
       <workItem from="1738962666622" duration="10123000" />
       <workItem from="1738974408792" duration="14000" />
       <workItem from="1738974454643" duration="5000" />
-      <workItem from="1738974497679" duration="672000" />
+      <workItem from="1738974497679" duration="1273000" />
     </task>
     <task id="LOCAL-00001" summary="add review model and updated movie admin functionality">
       <option name="closed" value="true" />
