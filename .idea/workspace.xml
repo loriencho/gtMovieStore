@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73f76557-fcd3-468b-bab1-44e5bdb437b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/gtMovieStore/static/img/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gtMovieStore/static/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gtMovieStore/static/img/movies_banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/templates/movies/movies.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gtMovieStore/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/gtMovieStore/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gtMovieStore/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/gtMovieStore/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gtMovieStore/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/gtMovieStore/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/home/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/home/about.html" afterDir="false" />
-    </list>
+    <list default="true" id="73f76557-fcd3-468b-bab1-44e5bdb437b0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -131,7 +120,7 @@
       <workItem from="1738529161883" duration="5794000" />
       <workItem from="1738554314954" duration="1869000" />
       <workItem from="1738710659715" duration="4172000" />
-      <workItem from="1738962666622" duration="9816000" />
+      <workItem from="1738962666622" duration="10123000" />
     </task>
     <task id="LOCAL-00001" summary="add review model and updated movie admin functionality">
       <option name="closed" value="true" />
