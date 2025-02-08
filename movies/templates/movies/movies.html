@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="text-center">Movies Collection</h1>
+    <p class="text-center text-muted">Explore the latest and greatest movies in our collection.</p>
+
+    <div class="row mt-4">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="{% static 'img/movie1.jpg' %}" class="card-img-top" alt="Movie 1">
+                <div class="card-body">
+                    <h5 class="card-title">Inception</h5>
+                    <p class="card-text">A mind-bending thriller directed by Christopher Nolan.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="{% static 'img/movie2.jpg' %}" class="card-img-top" alt="Movie 2">
+                <div class="card-body">
+                    <h5 class="card-title">The Dark Knight</h5>
+                    <p class="card-text">A Batman classic starring Christian Bale and Heath Ledger.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

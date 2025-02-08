@@ -1,9 +1,42 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>About page</title>
-</head>
-<body>
-  <h1>Welcome to the About Page</h1>
-</body>
-</html>
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="text-center">
+        <h1 class="fw-bold">About Our Movie Collection</h1>
+        <p class="text-muted">Discover movies, theaters, and the latest trends in cinema.</p>
+    </div>
+
+    <div class="row mt-4">
+        <!-- Featured Movies -->
+        <div class="col-md-6">
+            <h3 class="fw-semibold">Featured Movies</h3>
+            <ul class="list-group">
+                <li class="list-group-item">🎬 Inception (2010)</li>
+                <li class="list-group-item">🎬 The Dark Knight (2008)</li>
+                <li class="list-group-item">🎬 Avatar (2009)</li>
+                <li class="list-group-item">🎬 Titanic (1997)</li>
+                <li class="list-group-item">🎬 My Neighbor Totoro (1988)</li>
+            </ul>
+        </div>
+
+        <!-- Theater Information -->
+        <div class="col-md-6">
+            <h3 class="fw-semibold">Popular Theaters</h3>
+            <ul class="list-group">
+                <li class="list-group-item">📍 AMC Theaters - Atlanta</li>
+                <li class="list-group-item">📍 Regal Cinemas - New York</li>
+                <li class="list-group-item">📍 Cineplex - Los Angeles</li>
+                <li class="list-group-item">📍 IMAX Experience - Chicago</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Image Banner -->
+    <div class="mt-5 text-center">
+        <img src="{% static 'img/movies_banner.png' %}" class="img-fluid w-100" alt="Movies Banner">
+    </div>
+</div>
+{% endblock %}
