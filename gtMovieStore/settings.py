@@ -136,3 +136,11 @@ MEDIA_URL = '/media/'
 STATICFILES_DIRS = [
     BASE_DIR / 'gtMovieStore/static/',
 ]
+# Email configs
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_USE_TLS = True
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'shrestha.jain05@gmail.com'
+EMAIL_HOST_PASSWORD = 'kesm egvu ltzv iuwp'
+DEFAULT_FROM_EMAIL = 'shrestha.jain05@gmail.com'
