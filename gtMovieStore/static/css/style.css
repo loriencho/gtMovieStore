@@ -1,7 +1,6 @@
 .bg-index{
-  background: url("/static/img/background.jpg") no-repeat
-    fixed;
-  background-size: 100% auto;
+  background: url("../img/background.png") no-repeat center center fixed;
+    background-size: cover;
 }
 .navbar a.nav-link {
   color: #FFFEF6 !important;
