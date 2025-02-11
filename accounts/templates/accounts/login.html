@@ -37,16 +37,11 @@
 
             </form>
           <div class="text-center" >
-              <button class="btn bg-dark text-white" id = "passChange" onclick="passChange(event)" >
-                    Forgot Password?
+              <button class="btn bg-dark text-white" id = "passChange">
+                  <a href = "{% url 'password_reset' %}">
+                  <i> Forgot Password? </i></a>
                 </button>
-                  <script>
-                      function passChange() {
-                          event.preventDefault();
-                          window.location.href = "{%  url 'password_reset' %}";
-                      }
-                  </script>
-                </div>
+          </div>
           </div>
         </div>
       </div>

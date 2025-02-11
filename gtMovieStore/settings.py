@@ -139,3 +139,4 @@ EMAIL_USE_TLS = True
 EMAIL_PORT = 587
 EMAIL_HOST_USER = 'shrestha.jain05@gmail.com'
 EMAIL_HOST_PASSWORD = 'kesm egvu ltzv iuwp'
+DEFAULT_FROM_EMAIL = 'shrestha.jain05@gmail.com'
