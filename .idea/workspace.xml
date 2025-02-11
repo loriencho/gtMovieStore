@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73f76557-fcd3-468b-bab1-44e5bdb437b0" name="Changes" comment="updating styling of base html page to enable bootstrap and updated movies page to pull from database" />
+    <list default="true" id="73f76557-fcd3-468b-bab1-44e5bdb437b0" name="Changes" comment="updating styling of base html page to enable bootstrap and updated movies page to pull from database">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gtMovieStore/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/gtMovieStore/static/css/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

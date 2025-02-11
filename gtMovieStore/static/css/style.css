@@ -36,3 +36,6 @@
   width: fit-content;
   max-height: 200px;
 }
+.space {
+  margin-top: 5px;
+}
