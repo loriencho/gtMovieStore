@@ -1,0 +1,14 @@
+# Python bytecode files
+**/__pycache__/
+*.pyc
+
+# SQLite database
+db.sqlite3
+
+# IDE files (e.g., PyCharm)
+.idea/
+
+# Other
+*.log
+*.pot
+*.pyc
