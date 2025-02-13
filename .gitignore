@@ -8,4 +8,5 @@
 # Other
 *.log
 *.pot
-*.pyc
+*.pyc*.pyc
+__pycache__/
