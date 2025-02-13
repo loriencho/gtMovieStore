@@ -27,6 +27,11 @@ def show(request, id):
     return render(request, 'movies/show.html',
                   {'template_data': template_data})
 
+def search_movies(request):
+    query = request.GET.get('q', '')
+    movies = Movie.objects.filter(title__icontains=query) if query else []
+    return render(request, 'movies/search_results.html', {'movies': movies, 'query': query})
+
 @login_required
 def create_review(request, id):
     if (request.method == 'POST' and request.POST['comment']

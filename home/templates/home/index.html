@@ -1,20 +1,74 @@
 {% extends 'base.html' %}
+{% load static %}
 {% block content %}
-<header class="masthead bg-index text-white text-center
-           py-4">
-  <div class="container d-flex align-items-center flex-
-  column pt-2">
+
+<header class="masthead bg-index text-white text-center py-4">
+  <div class="container d-flex align-items-center flex-column pt-2">
     <h2>Movies Store</h2>
     <p>Your Ticket to Unlimited Entertainment!</p>
   </div>
 </header>
-<div class="p-3">
-  <div class="container">
-    <div class="row mt-3">
-      <div class="col mx-auto text-center mb-3">
-        <h4>Welcome to the best movie store!!</h4>
-      </div>
-    </div>
-  </div>
+
+<!-- Movie Search Bar -->
+
+<div class="container text-center my-4">
+    <h2>Find Your Favorite Movie 🎬</h2>
+    <form action="{% url 'movies.search' %}" method="GET" class="d-flex justify-content-center">
+        <input type="text" name="q" class="form-control w-50" placeholder="Search movies..." required>
+        <button type="submit" class="btn btn-primary ms-2">🔍 Search</button>
+    </form>
 </div>
+
+<!-- Featured Movies Carousel -->
+<div id="featuredMovies" class="carousel slide my-5" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="{% static 'img/inception.jpg' %}" class="d-block w-100" alt="Inception">
+        </div>
+        <div class="carousel-item">
+            <img src="{% static 'img/avatar.jpg' %}" class="d-block w-100" alt="Avatar">
+        </div>
+        <div class="carousel-item">
+            <img src="{% static 'img/dark.jpg' %}" class="d-block w-100" alt="The Dark Knight">
+        </div>
+        <div class="carousel-item">
+            <img src="{% static 'img/myneighbortotoro.jpg' %}" class="d-block w-100" alt="My Neighbor Totoro">
+        </div>
+        <div class="carousel-item">
+            <img src="{% static 'img/notebook.jpg' %}" class="d-block w-100" alt="The Notebook">
+        </div>
+        <div class="carousel-item">
+            <img src="{% static 'img/titanic.jpg' %}" class="d-block w-100" alt="The Titanic">
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#featuredMovies" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#featuredMovies" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+</div>
+
+<!-- User Testimonials -->
+<section class="container text-center my-5">
+    <h2>What Our Users Say</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <p>🌟🌟🌟🌟🌟 "Amazing selection of movies!" - Alex</p>
+        </div>
+        <div class="col-md-4">
+            <p>🌟🌟🌟🌟 "Great customer service!" - Taylor</p>
+        </div>
+        <div class="col-md-4">
+            <p>🌟🌟🌟🌟🌟 "Love the UI and experience!" - Jordan</p>
+        </div>
+    </div>
+</section>
+
+<!-- Call-to-Action (Sign Up) -->
+<section class="text-center my-5 bg-primary text-white p-4">
+    <h2>Join the Movie Store Today!</h2>
+    <p>Get access to exclusive content and the best movie collections.</p>
+    <a href="{% url 'accounts.signup' %}" class="btn btn-light btn-lg">Sign Up Now</a>
+</section>
 {% endblock content %}

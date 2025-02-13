@@ -65,20 +65,18 @@
     </nav>
     <!-- Header -->
 
-    <div>
+    <main class="main-content">
       {% block content %}
       {% endblock content %}
-    </div>
+    </main>
 
      <!-- Banner -->
     <header class="text-center text-white" style="background: url('{% static 'img/movies_banner.png' %}') no-repeat center center/cover; height: 200px; display: flex; align-items: center; justify-content: center;">
         <h1 class="fw-bold shadow-lg bg-dark px-3 py-2 rounded">Your Ticket to Unlimited Entertainment!</h1>
     </header>
 
-
-
     <!-- Footer -->
-    <section class="bg-dark text-white mt-auto py-4">
+    <footer class="bg-dark text-white mt-auto py-4">
       <div class="container">
         <div class="row">
           <div class="col-md-4">
@@ -92,17 +90,22 @@
             <b>LINKS</b>
             <hr />
             <p><a class="nav-link" href="{% url 'home.about' %}">About</a></p>
+              <p><a class="nav-link" href="{% url 'movies.index' %}">Movies</a></p>
+            <p><a class="nav-link" href="{% url 'accounts.login' %}">Login</a></p>
+            <p><a class="nav-link" href="{% url 'accounts.signup' %}">Sign Up</a></p>
+            <p><a class="nav-link" href="{% url 'cart.index' %}">Cart</a></p>
+
           </div>
           <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
             <b>CONTACT</b>
             <hr />
             <p><i class="fas fa-home me-2"></i> Atlanta, Georgia</p>
-            <p><i class="fas fa-envelope me-2"></i> email@moviesstore.com</p>
-            <p><i class="fas fa-phone me-2"></i> +81 03-3333-3333</p>
+            <p><i class="fas fa-envelope me-2"></i> GtMoviesStore@moviesstore.com</p>
+            <p><i class="fas fa-phone me-2"></i> +1 123-456-7890</p>
           </div>
         </div>
       </div>
-    </section>
+    </footer>
     <section class="p-3 ms-footer-bottom bg-dark">
       <div class="container d-flex justify-content-between">
         <div class="me-5 text-white">
