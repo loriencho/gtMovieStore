@@ -29,7 +29,7 @@ def show(request, id):
 
 def search_movies(request):
     query = request.GET.get('q', '')
-    movies = Movie.objects.filter(title__icontains=query) if query else []
+    movies = Movie.objects.filter(name__icontains=query) if query else []
     return render(request, 'movies/search_results.html', {'movies': movies, 'query': query})
 
 @login_required
