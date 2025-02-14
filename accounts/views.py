@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect
 from django.contrib.auth import login as auth_login, authenticate, logout as auth_logout, update_session_auth_hash
+from django.contrib.auth.models import User
 
 # Create your views here.
 from django.contrib.auth.forms import UserCreationForm, PasswordChangeForm
@@ -64,3 +65,10 @@ class ResetPasswordView(SuccessMessageMixin, PasswordResetView):
                       "please make sure you've entered the address you registered with, and check your spam folder."
     success_url = reverse_lazy('accounts.login')
 
+@login_required
+def orders(request):
+    template_data = {}
+    template_data['title'] = 'Orders'
+    template_data['orders'] = request.user.order_set.all()
+    return render(request, 'accounts/orders.html',
+        {'template_data': template_data})
