@@ -11,7 +11,6 @@ from django.contrib import messages
 from django.urls import reverse_lazy
 from django.contrib.auth.views import PasswordResetView
 from django.contrib.messages.views import SuccessMessageMixin
-from django.core.mail import send_mail
 
 
 @login_required
@@ -43,7 +42,7 @@ def signup(request):
     template_data = {}
     template_data['title'] = 'Sign Up'
     if request.method == 'GET':
-        template_data['form'] = UserCreationForm()
+        template_data['form'] = CustomUserCreationForm()
         return render(request, 'accounts/signup.html',
             {'template_data': template_data})
     elif request.method == 'POST':
