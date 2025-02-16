@@ -10,7 +10,10 @@
         <hr />
       </div>
     </div>
+
     <div class="row m-1">
+        {% if template_data.movies_in_cart|length > 0 %}
+
       <table class="table table-bordered table-striped
         text-center">
         <thead>
@@ -34,6 +37,9 @@
           {% endfor %}
         </tbody>
       </table>
+    {% else %}
+    No orders in cart.
+    {%  endif %}
     </div>
     <div class="row">
       <div class="text-end">
